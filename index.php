@@ -41,8 +41,8 @@ body {font-size:16px;}
 <div class="w3-main" style="margin-left:340px;margin-right:40px">
 
   <!-- Header -->
-  <div class="w3-container w3-hide-small" style="margin-top:80px" id="showcase">
-    <h1 class="w3-jumbo"><b>Dwarakamayi Silks</b></h1>
+  <div class="w3-container l" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo w3-hide-smal"><b>Dwarakamayi Silks</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
   </div>
  
