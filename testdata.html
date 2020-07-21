@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Use the XMLHttpRequest to get the content of a file.</h2>
+<p>The content is written in JSON format, and can easily be converted into a JavaScript object.</p>
+
+<p id="demo"></p>
+
+<script>
+var xmlhttp = new XMLHttpRequest();
+var data;
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    data = JSON.parse(this.responseText);
+    load();
+  //Object.keys(myObj.feed.entry).length
+  }
+};
+
+xmlhttp.open("GET", "https://spreadsheets.google.com/feeds/list/1-vuyMkUD8F7PGPQGt1ET9rEpP6Rfn-B-LuPm8dUBI3o/od6/public/values?alt=json", true);
+xmlhttp.send();
+function load(){
+document.getElementById("demo").innerHTML = data.feed.entry[0].gsx$imagelocation.$t ;
+var i=0;
+			for (;i<=5;i++)
+			{
+			document.write("<img src=\"" + data.feed.entry[i].gsx$imagelocation.$t + ".jpg\"style=\"width:100%\" onclick=\"onClick(this)\" id=\""+ i +"\" alt=\""+data.feed.entry[i].gsx$name.$t+"\"/>");
+			}
+}
+</script>
+
+<p>Take a look at <a href="https://spreadsheets.google.com/feeds/list/1-vuyMkUD8F7PGPQGt1ET9rEpP6Rfn-B-LuPm8dUBI3o/od6/public/values?alt=json" target="_blank">json_demo.txt</a></p>
+
+</body>
+</html>
