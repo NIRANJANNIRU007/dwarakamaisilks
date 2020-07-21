@@ -1,3 +1,1 @@
-<?php
-echo "hellow world";
-?.
+ < ?php header("Location: index.html"); ?>
