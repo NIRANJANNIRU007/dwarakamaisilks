@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Dwarakamayi Silks</title>
+<title>Dwarakamai Silks</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -17,13 +17,14 @@ body {font-size:16px;}
 <nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
   <div class="w3-container">
-    <h3 class="w3-padding-64"><b>Dwarakamayi<br>Silks</b></h3>
+    <h3 class="w3-padding-64"><b>Dwarakamai<br>Silks</b></h3>
   </div>
   <div class="w3-bar-block">
     <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
     <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About Us</a> 
     <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
 	<br><br><br>
+	<p>For orders and other details please contact.</p>
 	<a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">9985247507</a>
   </div>
 </nav>
@@ -31,7 +32,7 @@ body {font-size:16px;}
 <!-- Top menu on small screens -->
 <header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
   <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
-  <span>Dwarakamayi Silks</span>
+  <span>Dwarakamai Silks</span>
 </header>
 
 <!-- Overlay effect when opening sidebar on small screens -->
@@ -42,7 +43,7 @@ body {font-size:16px;}
 
   <!-- Header -->
   <div class="w3-container l" style="margin-top:80px" id="showcase">
-    <h1 class="w3-jumbo w3-hide-smal"><b>Dwarakamayi Silks</b></h1>
+    <h1 class="w3-jumbo w3-hide-smal"><b>Dwarakamai Silks</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
   </div>
  
@@ -55,26 +56,26 @@ body {font-size:16px;}
   
   <!-- Photo grid (modal) -->
   <div class="w3-row">
-    <div class="w3-col w3-container m4 ">
-      <img src="" style="width:100%" onclick="onClick(this)" id ="0" name="" alt="">
-      <img src="" style="width:100%" onclick="onClick(this)" id ="1" name="" alt="">
-	  <img src="" style="width:100%" onclick="onClick(this)" id ="2" name="" alt="">
-	  <img src="" style="width:100%" onclick="onClick(this)" id ="3" name="" alt="">
-	  <img src="" style="width:100%" onclick="onClick(this)" id ="4" name="" alt="">
+    <div class="w3-col w3-container m4  ">
+      <img class="w3-animate-opacity w3-padding-16" src="" style="width:100%" onclick="onClick(this)" id ="0" name="" alt="">
+      <img class="w3-animate-opacity w3-padding-16" src="" style="width:100%" onclick="onClick(this)" id ="1" name="" alt="">
+	  <img class="w3-animate-opacity w3-padding-16" src="" style="width:100%" onclick="onClick(this)" id ="2" name="" alt="">
+	  <img class="w3-animate-opacity w3-padding-16" src="" style="width:100%" onclick="onClick(this)" id ="3" name="" alt="">
+	  <img class="w3-animate-opacity w3-padding-16" src="" style="width:100%" onclick="onClick(this)" id ="4" name="" alt="">
     </div>
     <div class="w3-col w3-container m4 ">
-	  <img src="" style="width:100%" onclick="onClick(this)" id ="5" name="" alt="">
-      <img src="" style="width:100%" onclick="onClick(this)" id ="6" name="" alt="">
-	  <img src="" style="width:100%" onclick="onClick(this)" id ="7" name="" alt="">
-	  <img src="" style="width:100%" onclick="onClick(this)" id ="8" name="" alt="">
-	  <img src="" style="width:100%" onclick="onClick(this)" id ="9" name="" alt="">
+	  <img class="w3-animate-opacity w3-padding-16" src="" style="width:100%" onclick="onClick(this)" id ="5" name="" alt="">
+      <img class="w3-animate-opacity w3-padding-16" src="" style="width:100%" onclick="onClick(this)" id ="6" name="" alt="">
+	  <img class="w3-animate-opacity w3-padding-16" src="" style="width:100%" onclick="onClick(this)" id ="7" name="" alt="">
+	  <img class="w3-animate-opacity w3-padding-16" src="" style="width:100%" onclick="onClick(this)" id ="8" name="" alt="">
+	  <img class="w3-animate-opacity w3-padding-16" src="" style="width:100%" onclick="onClick(this)" id ="9" name="" alt="">
     </div>
 	<div class="w3-col w3-container m4 ">
-	  <img src="" style="width:100%" onclick="onClick(this)" id ="10" name="" alt="">
-      <img src="" style="width:100%" onclick="onClick(this)" id ="11" name="" alt="">
-	  <img src="" style="width:100%" onclick="onClick(this)" id ="12" name="" alt="">
-	  <img src="" style="width:100%" onclick="onClick(this)" id ="13" name="" alt="">
-	  <img src="" style="width:100%" onclick="onClick(this)" id ="14" name="" alt="">
+	  <img class="w3-animate-opacity w3-padding-16" src="" style="width:100%" onclick="onClick(this)" id ="10" name="" alt="">
+      <img class="w3-animate-opacity w3-padding-16" src="" style="width:100%" onclick="onClick(this)" id ="11" name="" alt="">
+	  <img class="w3-animate-opacity w3-padding-16" src="" style="width:100%" onclick="onClick(this)" id ="12" name="" alt="">
+	  <img class="w3-animate-opacity w3-padding-16" src="" style="width:100%" onclick="onClick(this)" id ="13" name="" alt="">
+	  <img class="w3-animate-opacity w3-padding-16" src="" style="width:100%" onclick="onClick(this)" id ="14" name="" alt="">
     </div>
   </div>
   
@@ -91,17 +92,16 @@ body {font-size:16px;}
     <div class="w3-modal-content w3-animate-zoom  w3-transparent w3-padding-64">
 	 <span class="w3-button w3-black w3-xxlarge w3-display-topright"  onclick="closeModal()">×</span>
 	  <div class="w3-row">
-			<div class="w3-col w3-container m8 w3-center">
-			<div class = "w3- container" >
-			<span class="w3-button w3-black w3-xxlarge w3-display-left" onclick = "rotateleft(this)"> &lt</span>
+			<div class="w3-col w3-container m6 ">
+			<span class="w3-button w3-black w3-xxlarge w3-display-left " onclick = "rotateleft(this)"> &lt</span>
+			<img id="img01" style="width:100%" class="w3-image w3-padding-32 w3-center w3-animate-opacity">
 			<span class="w3-button w3-black w3-xxlarge w3-display-right" onclick = "rotate(this)"> &gt</span>
-			<img id="img01" class="w3-image w3-padding-32">
-			</div>
-			</div>
+			</div >
 			<br><br><br>
-			<div class="w3-col w3-container m4 ">
+			<div class="w3-col w3-container m4 w3-center">
 			<ul type="disc" class="w3-left">
 			<h1 class="w3-padding-16" id="caption"></h1>
+			<li class="w3-padding-16"><b>UID</b>: <i id="uid"></i> </li>
 			<li class="w3-padding-16"><b>Price</b>: <i id="price"></i> </li>
 			<li class="w3-padding-16"><b>Type</b>:  <i id="type"></i> </li>
 			<li class="w3-padding-16"><b>Zari</b>: <i id="zari"></i> </li>
@@ -122,14 +122,14 @@ body {font-size:16px;}
   <div class="w3-container" id="about" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>About Us.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>Welcome to Dwarakamayi silks, we are dedicated to giving you the best of silk sarees, with a focus on quality and price. We started it out of passion for people providing the best of quality sarees at affordable price and inspired us to start online store.</p>
+    <p>Welcome to Dwarakamai silks, we are dedicated to giving you the best of silk sarees, with a focus on quality and price. We started it out of passion for people providing the best of quality sarees at affordable price and inspired us to start online store.</p>
     <p> We  have experience over 30 years in weaving handloom sarees. These sarees have been supplied to Bangalore, Chennai and Dharmavaram.
     </p>
 	<p> We hope you enjoy our products as much as we enjoy offering them to you. If you have any comments or question or suggestions, Please don't hesitate to contact us.
 	</p>
 	<br><br>
 	<b>Y. Venkataramana & V. Venkataramana</b><br>
-	<i>founders of Dwarakamayi Silks</i>
+	<i>founders of Dwarakamai Silks</i>
   </div>
   
   <!-- Contact Us-->
@@ -178,7 +178,7 @@ function load(){
 	for (i = (page-1) * 15,j=0;j<15 || i<tot;i++,j++)
 	{
 	element = document.getElementById(j);
-	element.src = "https://raw.githubusercontent.com/NIRANJANNIRU007/Dwarakamayisilks/master/images/" + data.feed.entry[i].gsx$imagelocation.$t + ".jpg";
+	element.src = "https://raw.githubusercontent.com/NIRANJANNIRU007/Dwarakamaisilks/master/images/" + data.feed.entry[i].gsx$imagelocation.$t + ".jpg";
 	element.name = i;
 	element.alt = data.feed.entry[i].gsx$name.$t			
 	}
@@ -231,13 +231,14 @@ function onClick(element) {
 	 res =  data.feed.entry[element.name].gsx$eximagelocation.$t.split(",");
 	 res.push(srcImg);
 	 curr = 0;
+	 document.getElementById("uid").innerHTML   =  data.feed.entry[element.name].gsx$uid.$t
 	document.getElementById("price").innerHTML   =  data.feed.entry[element.name].gsx$cost.$t
 	document.getElementById("zari").innerHTML  = data.feed.entry[element.name].gsx$zari.$t
 	document.getElementById("type").innerHTML  = data.feed.entry[element.name].gsx$type.$t
 	document.getElementById("desc").innerHTML  = data.feed.entry[element.name].gsx$description.$t
 	document.getElementById("color").innerHTML  = data.feed.entry[element.name].gsx$colour.$t
 	document.getElementById("blouse").innerHTML  = data.feed.entry[element.name].gsx$blouse.$t
-  document.getElementById("img01").src = "https://raw.githubusercontent.com/NIRANJANNIRU007/Dwarakamayisilks/master/images/" + data.feed.entry[element.name].gsx$imagelocation.$t + ".jpg";
+  document.getElementById("img01").src = "https://raw.githubusercontent.com/NIRANJANNIRU007/Dwarakamaisilks/master/images/" + data.feed.entry[element.name].gsx$imagelocation.$t + ".jpg";
   document.getElementById("modal01").style.display = "block";
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;
@@ -258,7 +259,7 @@ function rotate(element){
 	else{
 	curr=curr+1;
 	}	
-	document.getElementById("img01").src = "https://raw.githubusercontent.com/NIRANJANNIRU007/Dwarakamayisilks/master/images/" + res[curr] + ".jpg";
+	document.getElementById("img01").src = "https://raw.githubusercontent.com/NIRANJANNIRU007/Dwarakamaisilks/master/images/" + res[curr] + ".jpg";
 }
 function rotateleft(element){
 	if (curr ==  0)
@@ -268,7 +269,7 @@ function rotateleft(element){
 	else{
 	curr=curr-1;
 	}	
-	document.getElementById("img01").src = "https://raw.githubusercontent.com/NIRANJANNIRU007/Dwarakamayisilks/master/images/" + res[curr] + ".jpg";
+	document.getElementById("img01").src = "https://raw.githubusercontent.com/NIRANJANNIRU007/Dwarakamaisilks/master/images/" + res[curr] + ".jpg";
 }
 
 </script>
